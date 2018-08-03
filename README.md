@@ -5,4 +5,5 @@ I wrote a quick python script to grab data from the api, used the data to create
 The problem I ran into was that venmo's api only allows 2 requests a minute each request containing about 20 transactions. This meant that gathering enough data to see any real connectivity in the graph would take too long.
 
 Here is an image of the graph generated after a few queries to the api
-![screenshot](img/Capture.png "an image of the graph")
+
+![screenshot](img/Capture.PNG "an image of the graph")

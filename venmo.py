@@ -50,6 +50,7 @@ try:
       print('number of requests completed: %d' % num_req)
       print('current page: ' + page)
       time.sleep(15)
+  nx.write_gexf(G, "new.gexf")
 
 except KeyboardInterrupt:
   print(num_req)
